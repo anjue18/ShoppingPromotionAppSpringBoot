@@ -42,7 +42,7 @@ class CartControllerTest {
         System.out.println("featurebranchtest");
         List<Cart> allCartItems = new ArrayList<>();
         Cart cartItem1 = new Cart();
-        cartItem1.setCartId(1l);gi
+        cartItem1.setCartId(1l);
         cartItem1.setPromoId("P101");
         cartItem1.setPromoName("Lays");
         cartItem1.setPromoDesc("Sour cream lays");
