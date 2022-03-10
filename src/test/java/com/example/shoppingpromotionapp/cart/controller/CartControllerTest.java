@@ -39,6 +39,7 @@ class CartControllerTest {
     @Test
     public void shouldReturnAllItemsFromCart() throws Exception{
 
+        System.out.println("featurebranchtest");
         List<Cart> allCartItems = new ArrayList<>();
         Cart cartItem1 = new Cart();
         cartItem1.setCartId(1l);
