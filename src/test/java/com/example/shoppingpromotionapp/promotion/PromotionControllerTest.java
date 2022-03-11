@@ -50,7 +50,7 @@ class PromotionControllerTest {
 
         when(promotionService.getPromotionByDeptId("D01")).thenReturn(promotionResponseList);
 
-        mockMvc.perform(MockMvcRequestBuilders.get("/promotions?deptId=D02")
+        mockMvc.perform(MockMvcRequestBuilders.get("/promotions?deptId=D01")
                         .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 .andExpect(MockMvcResultMatchers.content().string(mapper.writeValueAsString(promotionResponseList)));
