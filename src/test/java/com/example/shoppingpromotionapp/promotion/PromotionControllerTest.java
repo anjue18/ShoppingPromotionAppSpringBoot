@@ -34,6 +34,8 @@ class PromotionControllerTest {
 
     @Test
     public void shouldReturnPromotionsByDeptId() throws Exception{
+
+        System.out.println("test PR from feature branch");
         System.out.println("test PR");
         List<PromotionResponse> promotionResponseList = new ArrayList<>();
         PromotionResponse promotionResponse = new PromotionResponse();
